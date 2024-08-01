@@ -24,15 +24,22 @@
 	</Item>
 	<Item Name="Stratification" Type="Folder">
 		<Item Name="Actors" Type="Folder">
+			<Item Name="Data Types" Type="Folder">
+				<Item Name="Process State.ctl" Type="VI" URL="../Process State.ctl"/>
+			</Item>
 			<Item Name="Interfaces" Type="Folder">
 				<Item Name="DataHandler.lvclass" Type="LVClass" URL="../DataHandler/DataHandler.lvclass"/>
+				<Item Name="ProcStateHandler.lvclass" Type="LVClass" URL="../ProcStateHandler/ProcStateHandler.lvclass"/>
 			</Item>
 			<Item Name="Messages" Type="Folder">
 				<Item Name="Handle Data Msg.lvclass" Type="LVClass" URL="../DataHandler Messages/Handle Data Msg/Handle Data Msg.lvclass"/>
+				<Item Name="Handle State Msg.lvclass" Type="LVClass" URL="../ProcStateHandler Messages/Handle State Msg/Handle State Msg.lvclass"/>
 			</Item>
+			<Item Name="ChartProc.lvclass" Type="LVClass" URL="../ChartProc/ChartProc.lvclass"/>
 			<Item Name="CoolApp.lvclass" Type="LVClass" URL="../CoolApp/CoolApp.lvclass"/>
 			<Item Name="CoolAppProcess.lvclass" Type="LVClass" URL="../CoolAppProcess/CoolAppProcess.lvclass"/>
 			<Item Name="DAQProc.lvclass" Type="LVClass" URL="../DAQProc/DAQProc.lvclass"/>
 		</Item>
+		<Item Name="Test AF Stratification.vi" Type="VI" URL="../CoolAppProcess/Test AF Stratification.vi"/>
 	</Item>
 </Library>

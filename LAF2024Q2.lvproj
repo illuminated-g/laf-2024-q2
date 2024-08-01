@@ -11,7 +11,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LAF2024Q2.lvlib" Type="Library" URL="../LAF2024Q2/LAF2024Q2.lvlib"/>
-		<Item Name="Test AF Stratification.vi" Type="VI" URL="../LAF2024Q2/CoolAppProcess/Test AF Stratification.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
