@@ -7,6 +7,7 @@
 	<Item Name="Crystal Balls" Type="Folder">
 		<Item Name="Fix" Type="Folder">
 			<Item Name="Support" Type="Folder">
+				<Item Name="BK-Fix-PSU.lvclass" Type="LVClass" URL="../BK-Fix-PSU/BK-Fix-PSU.lvclass"/>
 				<Item Name="Keithley230X-Fix.lvclass" Type="LVClass" URL="../Keithley230X-Fix/Keithley230X-Fix.lvclass"/>
 				<Item Name="PowerSupply-Fix.lvclass" Type="LVClass" URL="../PowerSupply-Fix/PowerSupply-Fix.lvclass"/>
 				<Item Name="PowerSupplyVisa-Fix.lvclass" Type="LVClass" URL="../PowerSupplyVisa-Fix/PowerSupplyVisa-Fix.lvclass"/>
@@ -15,6 +16,7 @@
 			<Item Name="HAL Fix Test.vi" Type="VI" URL="../HAL Fix Test.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
+			<Item Name="BK-PSU.lvclass" Type="LVClass" URL="../BK-PSU/BK-PSU.lvclass"/>
 			<Item Name="Keithley230X.lvclass" Type="LVClass" URL="../Keithley230X/Keithley230X.lvclass"/>
 			<Item Name="PowerSupply.lvclass" Type="LVClass" URL="../PowerSupply/PowerSupply.lvclass"/>
 			<Item Name="PowerSupplyVisa.lvclass" Type="LVClass" URL="../PowerSupplyVisa/PowerSupplyVisa.lvclass"/>
